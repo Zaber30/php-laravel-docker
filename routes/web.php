@@ -19,5 +19,8 @@ Route::get('/', function () {
 Route::get('/out',function(){
     return'zaber how are you';
 });
+Route::get('/nice',function(){
+    return 'this is another way';
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
