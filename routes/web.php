@@ -22,5 +22,8 @@ Route::get('/out',function(){
 Route::get('/nice',function(){
     return 'this is another way';
 });
+Route::get('/play',function(){
+    return 'i am playing with docker';
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
